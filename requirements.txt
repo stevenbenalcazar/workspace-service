@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+ariadne
+sqlalchemy
+alembic
+asyncpg
+psycopg2
+pydantic
+boto3
+python-dotenv

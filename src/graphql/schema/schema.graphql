@@ -1,0 +1,9 @@
+type Workspace {
+    id: ID!
+    name: String!
+    description: String
+}
+
+type Mutation {
+    createWorkspace(name: String!, description: String): Workspace
+}
