@@ -1,9 +1,16 @@
-type Workspace {
-    id: ID!
-    name: String!
-    description: String
+type Query {
+  workspace(id: ID!): Workspace
 }
 
 type Mutation {
-    createWorkspace(name: String!, description: String): Workspace
+  createWorkspace(input: CreateWorkspaceInput!): Workspace
+}
+
+type Workspace {
+  id: ID!
+  name: String!
+}
+
+input CreateWorkspaceInput {
+  name: String!
 }
