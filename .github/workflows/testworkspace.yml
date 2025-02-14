@@ -3,7 +3,7 @@ name: 🚀 Deploy Workspace Service
 on:
   push:
     branches:
-      - main  # Cambia esto si usas otra rama
+      - test  # Cambia esto si usas otra rama
 
 jobs:
   build-and-deploy:
